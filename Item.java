@@ -22,6 +22,10 @@ public class Item{
     itemWeight = weight;
   }
   
+  public void main(String[] args){
+    System.out.println("The item's name is " + itemName + "\n And its weight is " + itemWeight);
+  }
+  
   //constructor class with name of item as a parameter
   /**
    * Constructor to initialize the itemName
